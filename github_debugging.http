@@ -1,0 +1,14 @@
+### this file that ends with ".http" is specifically used with the vs code extention
+#
+# see: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+#
+# We can define all kinds of requests and debug the results care of the extension
+
+GET https://github.com/SummerOfCode2020/week-03-tdd-strict-equal/pulls/Se-ven
+
+###
+
+GET https://api.github.com/repos/SummerOfCode2020/week-03-tdd-strict-equal/pulls
+
+### a 404 example
+GET https://github.com/foobarpath

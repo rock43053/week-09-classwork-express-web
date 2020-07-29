@@ -1,0 +1,26 @@
+### this file that ends with ".http" is specifically used with the vs code extention
+#
+# see: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+#
+# We can define all kinds of requests and debug the results care of the extension
+
+GET https://postman-echo.com/get?foo1=bar1&foo2=bar2
+
+###
+
+POST https://postman-echo.com/post HTTP/1.1
+content-type: application/json
+
+{
+    "testing": "123"
+
+}
+
+###
+
+POST https://postman-echo.com/post HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+name=foo
+&password=bar
+

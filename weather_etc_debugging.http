@@ -1,0 +1,18 @@
+
+### Weather example
+
+http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=439d4b804bc8187953eb36d2a8c26a02
+
+
+### A JSON sample
+
+https://jsonplaceholder.typicode.com/posts/1/comments
+
+### Another JSON sample
+
+https://reqres.in/api/users?page=2
+
+
+### More JSON
+
+http://dummy.restapiexample.com/api/v1/employees

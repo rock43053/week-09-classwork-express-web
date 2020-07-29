@@ -1,0 +1,18 @@
+{
+  "name": "week-09-classwork-express-web",
+  "version": "1.0.0",
+  "description": "Objectives",
+  "main": "demo-server.js",
+  "scripts": {
+    "demo": "nodemon demo-server.js",
+    "basic": "nodemon your-basic-web-server.js",
+    "test": "nodemon demo-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
