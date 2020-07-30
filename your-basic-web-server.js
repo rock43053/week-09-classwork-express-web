@@ -18,22 +18,23 @@
 
    const app = express()
 
-   const router = express.Router ()
-
-   app.use(router)
-
-   app.use(express.static('public'))
-
-   module.exports = router, app
+   app.listen(1337, function () {
+   console.log("Running on LocalHost:1337")
+})
 /**
     2) Use the `get` method to configure a "home page" route handler
  */
+   app.get('/', function (req, resp) {
+      resp.send ("home page")
 
+   })
 
  /**
     3) Use the `get` method to configure a "contact" route handler
  */
-
+   app.get(user, function (req, resp) {
+      req.send ("user")
+   })
 
  /**
     4) Use the `all` method to configure a default handler for when no other handlers defined earlier in this file have matched the path a user has requested
