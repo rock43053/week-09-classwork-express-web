@@ -14,8 +14,17 @@
      <https://expressjs.com/en/api.html#app.listen>
 
 */
+   const express = require('express')
 
+   const app = express()
 
+   const router = express.Router ()
+
+   app.use(router)
+
+   app.use(express.static('public'))
+
+   module.exports = router, app
 /**
     2) Use the `get` method to configure a "home page" route handler
  */
